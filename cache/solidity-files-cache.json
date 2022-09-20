@@ -1,0 +1,77 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\ElephantsLab\\8 Task\\Divisable Token\\contracts\\DivisableToken.sol": {
+      "lastModificationDate": 1663674427892,
+      "contentHash": "87570951dd7bb9521b84b56dffb8385d",
+      "sourceName": "contracts/DivisableToken.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IterableMapping.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.13"
+      ],
+      "artifacts": [
+        "Dividends"
+      ]
+    },
+    "D:\\ElephantsLab\\8 Task\\Divisable Token\\contracts\\IterableMapping.sol": {
+      "lastModificationDate": 1663674426529,
+      "contentHash": "86aab3dcb304245870767fd38951c4b5",
+      "sourceName": "contracts/IterableMapping.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.13"
+      ],
+      "artifacts": [
+        "IterableMapping"
+      ]
+    }
+  }
+}
