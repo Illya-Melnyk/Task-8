@@ -50,4 +50,15 @@ contract Dividends {
     function checkDividendsBalance() external view returns (uint256){
         return dividendsBalances[msg.sender];
     }
+     function getHoldersNumber() external view returns(uint256){
+        return balances.size();
+    }
+
+    function getContributorByIndex(uint256 _index) external view returns(address){
+        return balances.getKeyAtIndex(_index);
+    }
+
+    function totalSupply() external view returns(uint256){
+        return _totalSupply;
+    }
 }
